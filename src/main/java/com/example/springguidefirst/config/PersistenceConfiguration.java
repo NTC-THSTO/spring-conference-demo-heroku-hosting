@@ -9,11 +9,11 @@ import javax.sql.DataSource;
 @Configuration
 public class PersistenceConfiguration {
 
-    @Bean
-    public DataSource dataSource () {
-        DataSourceBuilder builder = DataSourceBuilder.create();
-        builder.url("DB_URL=jdbc:mysql://localhost:3306/conference_demo?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true;DB_UN=root;DB_PW=RandomPassword123!");
-        return builder.build();
-    }
+//    @Bean
+//    public DataSource dataSource () {
+//        DataSourceBuilder builder = DataSourceBuilder.create();
+//        builder.url("DB_URL=jdbc:mysql://localhost:3306/conference_demo?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true;DB_UN=root;DB_PW=RandomPassword123!");
+//        return builder.build();
+//    }
 
 }
