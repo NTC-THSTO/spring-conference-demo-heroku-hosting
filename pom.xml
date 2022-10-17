@@ -110,6 +110,7 @@
                             <BP_NATIVE_IMAGE>true</BP_NATIVE_IMAGE>
                         </env>
                     </image>
+
                     <executable>true</executable>
                 </configuration>
             </plugin>
